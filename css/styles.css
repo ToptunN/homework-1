@@ -1,4 +1,26 @@
+:root {
+    
+}
+/*
+main-color #000000
+second-color rgba(0,0,0,0.8)
+
+back-color #ffffff
+subback-color #f5f5f5
+accent color #18a0fb*/
+
 body {
-    background-color: aqua;
-    color: aliceblue;
-}css/styles.
+    background-color:#ffffff;
+    color:rgba(0, 0, 0, 0.8);}
+.site-nav {
+    list-style: none;
+}
+.logo {
+    color: #18a0fb;
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: #000000
+}section nemo link {
+    color: #18a0fb;
+}

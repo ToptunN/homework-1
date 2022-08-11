@@ -5,21 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
-<body>
+<body class="page">
 <!--Шапка сайту-->
     <header>
         <nav>
-            <a href=""> 
+            <a href="" class="logo"> 
                 photo
             </a>
-            <ul> 
-                <li><a href="">Features</a></li>
-                <li><a href="">Pricing</a></li>
-                <li><a href="">Community</a></li>
-                <li><a href="">Support</a></li>
+            <ul class="site-nav"> 
+                <li><a href=""class="link">Features</a></li>
+                <li><a href=""class="link">Pricing</a></li>
+                <li><a href=""class="link">Community</a></li>
+                <li><a href=""class="link">Support</a></li>
             </ul>
-            <ul>
+            <ul class="auth-nav">
                 <li><a href="">Log in</a></li>
                 <li><a href="">Register</a></li>
             </ul>
@@ -28,15 +29,15 @@
     <main>
 <!--Секція Герой-->
     
-        <section>
-            <h1>The largest community of photo enthusiast</h1>
+        <section class="hero">
+            <h1 class="hero-title">The largest community of photo enthusiast</h1>
             <a href="">Join today</a>
         </section>
     
 <!--Секція з порадам по фото-->
     
-        <section>
-            <h2>Snap photos and share like <br/> never before</h2>
+        <section class="section">
+            <h2 class="section-title">Snap photos and share like <br/> never before</h2>
                 <ul>
                     <li>
                         <h3>Sed ut perspitiatis</h3>
@@ -49,9 +50,9 @@
                             <a href="">Learn more</a>
                     </li>
                     <li>
-                        <h3>Nemo enim ipsum</h3>
+                        <h3 class="nemo">Nemo enim ipsum</h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi aliquid error dicta, tenetur magnam nostrum quidem labore laudantium provident placeat sint doloribus exercitationem dolore soluta expedita ducimus perferendis recusandae. Et?</p>
-                            <a href="">Learn more</a>
+                            <a href="" class="link">Learn more</a>
                     </li>
                     <li>
                         <h3>Tempor incididunt</h3>
@@ -65,12 +66,12 @@
     
 <!--Приклади робіт-->
     
-        <section>
-        <h1>Work examples</h1> 
+        <section class="section">
+        <h1 class="section-title">Work examples</h1> 
             <ul>
                 <li><img src="./images/viber_image_2022-05-19_20-16-12-718.jpg" alt="" width="750">
                     <h3>Name 1</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat voluptatum error non facilis quos, quam in hic nulla quibusdam asperiores, deleniti sed, laudantium quia suscipit dolorum. Odio pariatur veniam facilis!</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, neque</p>
                 </li>
                 <li><img src="./images/viber_image_2022-05-19_20-16-12-718.jpg" alt="" width="750">
                     <h3>Name 2</h3>
@@ -79,21 +80,97 @@
             </ul>
         </section>
 <!--Свідчення-->
-        <section>
-            <h2>Section with testimonials</h2>
+        <section class="section">
+            <h2>You are in good company</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque commodi distinctio labore dolores debitis iusto corrupti et. Maiores cum obcaecati architecto vel laboriosam id numquam provident fugit, esse consequatur molestiae!</p>
         </section>
-        <ul>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
+       
         </ul>
-    
+<!--Приклад таблиці-->
+<table>
+    <caption>Renault sales 2022</caption>
+        <thead>
+            <tr>
+                <th rowspan="2">Car class</th>
+                <th colspan="3">Statistics</th>
+                
+            </tr>
+                <th>January</th>
+                <th>February</th>
+                <th>Total</th>
+            </tr>
+         
+        </thead>
+        <tbody>
+            
+            <tr>
+                <td>PC</td>
+                <td>520</td>
+                <td>590</td>
+                <td>1100</td>
+            </tr>
+            <tr>
+                <td>LCV</td>
+                <td>57</td>
+                <td>169</td>
+                <td>226</td>
+            </tr>
+
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>TOTAL</td>
+                <td>577</td>
+                <td>759</td>
+                <td>1336</td>
+            </tr>
+        </tfoot>
+                
+</table>
+
+<!--Розмітка тексту-->
+<dl>
+    <dt><span class="red">Love</span></dt>
+        <dd>for everybody this is something speccific and can differ depending on people values</dd>
+</dl>
+<dl>
+    <dt>Song</dt>
+        <dd>
+            <pre>
+                Wyatt resteth here, that quick could never rest;
+                Whose heavenly gifts increased by disdain,
+                And virtue sank the deeper in his breast;
+                Such profit he by envy could obtain.
+
+            </pre>
+            <pre>
+                A head where wisdom mysteries did frame,
+                Whose hammers beat still in that lively brain
+                As on a stithy where that some work of fame
+                Was daily wrought, to turn to Britain's gain.
+            </pre>
+        </dd>
+</dl>
+
+<!--Верхній і нижній регістр-->
+<p><strong>Water formula:</strong>H<sub>2</sub>O</p>
+<p>Total square of our flat is 52 m<sup>2</sup></p>
+
+<!--Дата і час події-->
+<p>I was born on <time datetime="1986-08-08T09.09">8.08.1986 at 9.09 AM</time></p>
+
+<!--Додаю адресу-->
+
+<address> 
+    Renault Ukraine </br>
+    4th floor</br>
+    Simji Prahovyh str</br>
+    Kyiv </br>
+</address>
+<address>
+    <p><a href="mailto:natalia.toptun@renault.com">natalia.toptun@renault.com</a></p>
+    <p><a href="tel:+380674137780">+38 (067) 111 11 11</a></p>
+</address>
     </main>
     <footer>
         
